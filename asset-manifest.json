@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/optimize/static/css/main.5e38a5f4.chunk.css",
+    "main.js": "/optimize/static/js/main.5be3149a.chunk.js",
+    "main.js.map": "/optimize/static/js/main.5be3149a.chunk.js.map",
+    "runtime-main.js": "/optimize/static/js/runtime-main.5b1fb22e.js",
+    "runtime-main.js.map": "/optimize/static/js/runtime-main.5b1fb22e.js.map",
+    "static/js/2.e07d17f3.chunk.js": "/optimize/static/js/2.e07d17f3.chunk.js",
+    "static/js/2.e07d17f3.chunk.js.map": "/optimize/static/js/2.e07d17f3.chunk.js.map",
+    "index.html": "/optimize/index.html",
+    "precache-manifest.7e5d19ae4680b0bd76ae34f628df4d08.js": "/optimize/precache-manifest.7e5d19ae4680b0bd76ae34f628df4d08.js",
+    "service-worker.js": "/optimize/service-worker.js",
+    "static/css/main.5e38a5f4.chunk.css.map": "/optimize/static/css/main.5e38a5f4.chunk.css.map",
+    "static/js/2.e07d17f3.chunk.js.LICENSE": "/optimize/static/js/2.e07d17f3.chunk.js.LICENSE",
+    "static/media/index.scss": "/optimize/static/media/arial-black.fd3369f5.woff",
+    "static/media/SectionWithBg.scss": "/optimize/static/media/training-section.99f0a4f5.png",
+    "static/media/jumbotron.scss": "/optimize/static/media/training-slide.025acebb.png",
+    "static/media/bunner.png": "/optimize/static/media/bunner.42b4cb19.png",
+    "static/media/detailed.png": "/optimize/static/media/detailed.38c065a8.png",
+    "static/media/feed.png": "/optimize/static/media/feed.6964416c.png",
+    "static/media/slider.scss": "/optimize/static/media/home-slide03.1d722b38.png",
+    "static/media/icon01.png": "/optimize/static/media/icon01.df3e808f.png",
+    "static/media/icon02.png": "/optimize/static/media/icon02.d5ce1b8f.png",
+    "static/media/icon03.png": "/optimize/static/media/icon03.56f90ba8.png",
+    "static/media/logo.png": "/optimize/static/media/logo.fcba6218.png",
+    "static/media/mission.png": "/optimize/static/media/mission.a71379c9.png",
+    "static/media/profile.png": "/optimize/static/media/profile.7c993cef.png",
+    "static/media/project01.png": "/optimize/static/media/project01.02b022f7.png",
+    "static/media/project02.png": "/optimize/static/media/project02.0cf9c5d1.png",
+    "static/media/project03.png": "/optimize/static/media/project03.bc309502.png",
+    "static/media/vision.png": "/optimize/static/media/vision.d18e71d1.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5b1fb22e.js",
+    "static/js/2.e07d17f3.chunk.js",
+    "static/css/main.5e38a5f4.chunk.css",
+    "static/js/main.5be3149a.chunk.js"
+  ]
+}

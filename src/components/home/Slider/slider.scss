@@ -1,0 +1,50 @@
+.carousel{
+  .carousel-inner{
+    height: 100%;
+    .slide01{
+      background-image: url(./../../../assets/home-slide01.png);
+      height: 100vh; /* You must set a specified height */
+      background-position: center center; /* Center the image */
+      background-repeat: no-repeat; /* Do not repeat the image */
+      background-size: cover; /* Resize the background image to cover the entire container */
+      @media all and (max-width: 480px) {
+          background-image: none;
+          height: auto;
+      }
+    }
+    .slide02{
+      background-image: url(./../../../assets/home-slide02.png);
+      height: 100vh; /* You must set a specified height */
+      background-position: center center; /* Center the image */
+      background-repeat: no-repeat; /* Do not repeat the image */
+      background-size: cover; /* Resize the background image to cover the entire container */
+      @media all and (max-width: 480px) {
+          background-image: none;
+          height: auto;
+      }
+    }
+    .slide03{
+      background-image: url(./../../../assets/home-slide03.png);
+      height: 100vh; /* You must set a specified height */
+      background-position: center center; /* Center the image */
+      background-repeat: no-repeat; /* Do not repeat the image */
+      background-size: cover; /* Resize the background image to cover the entire container */
+      @media all and (max-width: 480px) {
+          background-image: none;
+          height: auto;
+      }
+    }
+    .carousel-item{
+      .w-100{
+        width: 100vw !important;
+        height: 100vh;
+        opacity: 0;
+        @media all and (max-width: 480px) {
+          width: 100vw !important;
+          height: auto;
+          opacity: 1;
+        }
+      }
+    }
+  }
+}

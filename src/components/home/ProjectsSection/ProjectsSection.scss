@@ -1,0 +1,13 @@
+$fontBlack: arialblack, sans-serif;
+$fontRegular: arialregular, sans-serif;
+$mainBlue: #5a9ded;
+
+.projects-wrapper{
+  width: 100%;
+  display: block;
+  text-align: center;
+  height: 100%;
+  .projects-content{
+    margin: 1em 0;
+  }
+}

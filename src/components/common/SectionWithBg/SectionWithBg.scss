@@ -1,0 +1,41 @@
+.whiteSection{
+  background-color: #fff;
+  width: 100%;
+  height: 100%;
+}
+.graySection{
+  background-color: #ded6d6;
+  width: 100%;
+  height: 100%;
+}
+.aboutSection{
+  background: url(./about-section.png) fixed center;
+  height: 100%;
+  width: 100%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.servicesSection{
+  background: url(./services-section.png) fixed center;
+  height: 100%;
+  width: 100%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.trainingSection{
+  background: url(./training-section.png) fixed center;
+  height: 100%;
+  width: 100%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.sectionWrapper{
+  margin:0;
+  padding: 3em 0;
+  @media all and (max-width: 768px) {
+    padding: 1em 0;
+  }
+}

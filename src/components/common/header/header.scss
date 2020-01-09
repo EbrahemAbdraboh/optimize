@@ -1,0 +1,176 @@
+@import "../../../style/main.scss";
+
+.header{
+  height: 100%;
+  font-family: $fontBlack;
+  color: $mainBlue;
+  .header-wrapper{
+    background-color: transparent;
+    height: 115px;
+    position: fixed;
+    width: 100%;
+    z-index: 99;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: row;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    .toolbar__navigation{
+      display: flex;
+      align-items: center;
+      height: 100%;
+      .toolbar__logo{
+        width: 35%;
+        display: flex;
+        -webkit-transition: all 0.2s ease-in-out;
+        -moz-transition: all 0.2s ease-in-out;
+        -o-transition: all 0.2s ease-in-out;
+        transition: all 0.2s ease-in-out;
+        img{
+          width: 100%;
+
+        }
+      }
+      .spacer{
+        flex: 1;
+      }
+      .toolbar_navigation-items{
+        ul{
+          list-style: none;
+          margin: 0;
+          padding: 0;
+          display: flex;
+          li{
+            padding: 1em 0.5em;
+            border-bottom: 2px solid transparent;
+            a{
+              color: $mainBlue;
+              -webkit-transition: all 0.2s ease-in-out;
+              -moz-transition: all 0.2s ease-in-out;
+              -o-transition: all 0.2s ease-in-out;
+              transition: all 0.2s ease-in-out;
+              &:hover{
+                color:$mainRed;
+                text-decoration: none;
+              }
+              &:focus{
+                color:$mainRed;
+                text-decoration: none;
+              }
+              &:active{
+                color:$mainRed;
+                text-decoration: none;
+              }
+            }
+            &:hover{
+              border-bottom: 2px solid $mainRed;
+            }
+          }
+        }
+        @media all and (max-width: 768px) {
+          display: none;
+        }
+      }
+      .toolbar__toggle-button{
+        display: flex;
+        @media all and (min-width: 769px) {
+          display: none;
+        }
+      }
+    }
+    @media all and (min-width: 480px) and (max-width: 768px) {
+      height: 90px;
+    }
+    @media all and (max-width: 480px) {
+      height: 40px;
+    }
+  }
+  .header-shrink{
+    background-color: #fff;
+    height: 66px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    z-index: 99;
+    flex-direction: row;
+    box-shadow: 0 1px 7px #ccc;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    .toolbar__navigation{
+      display: flex;
+      align-items: center;
+      height: 100%;
+      .toolbar__logo{
+        width: 25%;
+        display: flex;
+        -webkit-transition: all 0.2s ease-in-out;
+        -moz-transition: all 0.2s ease-in-out;
+        -o-transition: all 0.2s ease-in-out;
+        transition: all 0.2s ease-in-out;
+        img{
+          width: 100%;
+
+        }
+      }
+      .spacer{
+        flex: 1;
+      }
+      .toolbar_navigation-items{
+        ul{
+          list-style: none;
+          margin: 0;
+          padding: 0;
+          display: flex;
+          li{
+            padding: 1em 0.5em;
+            border-bottom: 2px solid transparent;
+            a{
+              color: $mainBlue;
+              -webkit-transition: all 0.2s ease-in-out;
+              -moz-transition: all 0.2s ease-in-out;
+              -o-transition: all 0.2s ease-in-out;
+              transition: all 0.2s ease-in-out;
+              &:hover{
+                color:$mainRed;
+                text-decoration: none;
+              }
+              &:focus{
+                color:$mainRed;
+                text-decoration: none;
+              }
+              &:active{
+                color:$mainRed;
+                text-decoration: none;
+              }
+            }
+            &:hover{
+              border-bottom: 2px solid $mainRed;
+            }
+          }
+        }
+        @media all and (max-width: 768px) {
+          display: none;
+        }
+      }
+      .toolbar__toggle-button{
+        display: flex;
+        @media all and (min-width: 769px) {
+          display: none;
+        }
+      }
+    }
+    @media all and (min-width: 480px) and (max-width: 768px) {
+      height: 60px;
+    }
+    @media all and (max-width: 480px) {
+      height: 38px;
+    }
+  }
+}

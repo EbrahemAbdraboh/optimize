@@ -1,0 +1,86 @@
+$fontBlack: arialblack, sans-serif;
+$fontRegular: arialregular, sans-serif;
+
+
+$aboutSlide : '../../../assets/about-slide.png';
+$capabilitiesSlide : '../../../assets/capabilities-slide.png';
+$servicesSlide : '../../../assets/services-slide.png';
+$projectsSlide : '../../../assets/projects-slide.png';
+$trainingSlide : '../../../assets/training-slide.png';
+
+.jumbo-wrapper {
+  .jumbotron{
+    margin-bottom: 0;
+    position: relative;
+  }
+  .about-slide {
+    background: url($aboutSlide) no-repeat fixed top;
+    background-size: 100%;
+    color: #fff;
+    height: 100%;
+    position: relative;
+    z-index: -2;
+  }
+  .capabilities-slide {
+    background: url($capabilitiesSlide) no-repeat fixed top;
+    background-size: 100%;
+    color: #fff;
+    height: 100%;
+    position: relative;
+    z-index: -2;
+  }
+  .services-slide {
+    background: url($servicesSlide) no-repeat fixed top;
+    background-size: 100%;
+    color: #fff;
+    height: 100%;
+    position: relative;
+    z-index: -2;
+  }
+  .projects-slide {
+    background: url($projectsSlide) no-repeat fixed top;
+    background-size: 100%;
+    color: #fff;
+    height: 100%;
+    position: relative;
+    z-index: -2;
+  }
+  .training-slide {
+    background: url($trainingSlide) no-repeat fixed top;
+    background-size: 100%;
+    color: #fff;
+    height: 100%;
+    position: relative;
+    z-index: -2;
+  }
+  .container{
+    position: relative;
+    height: 100%;
+  }
+  h1{
+    text-align: center;
+    display: block;
+    font-family: $fontBlack;
+    font-size: 2.5em;
+    margin: 1em auto 0;
+    @media all and (max-width: 480px) {
+      font-size: 1em;
+      margin: 0.3em auto 0;
+    }
+  }
+  p{
+    position: absolute;
+    width: 100%;
+    top: 69px;
+    text-align: center;
+    @media all and (max-width: 480px) {
+      font-size: 12px;
+      margin: 0 18%;
+      display: block;
+      top: 20px;
+      width: 60%;
+      padding: 0;
+      line-height: 1;
+    }
+  }
+}

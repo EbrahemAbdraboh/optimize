@@ -1,0 +1,23 @@
+$fontBlack: arialblack, sans-serif;
+$mainBlue: #5a9ded;
+
+.button-wrapper{
+  a{
+    color: #fff;
+    font-family: $fontBlack;
+    font-size: 1em;
+    min-width: 200px;
+    background-color: $mainBlue;
+    border:none;
+    margin: 1em auto;
+    &:hover{
+      background-color: #286dbf;
+    }
+    &:focus{
+      outline: none;
+    }
+    &:active{
+      outline: none;
+    }
+  }
+}

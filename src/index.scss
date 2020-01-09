@@ -1,0 +1,33 @@
+@font-face {
+	font-family: 'arialblack';
+	src: url('./fonts/arial-black.eot'); /* IE9 Compat Modes */
+	src: local('☺'),
+		 url('./fonts/arial-black.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+	     url('./fonts/arial-black.woff') format('woff'), /* Modern Browsers */
+		 url('./fonts/arial-black.otf')  format('opentype'), /*  */
+	     url('./fonts/arial-black.ttf')  format('truetype'), /* Safari, Android, iOS */
+	     url('./fonts/arial-black.svg#arial-black') format('svg'); /* Legacy iOS */
+	 font-weight: 900;
+	 font-style: normal;
+}
+@font-face {
+	font-family: 'arialregular';
+	src: url('./fonts/Arial_regular.eot'); /* IE9 Compat Modes */
+	src: local('☺'),
+		 url('./fonts/Arial_regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+	     url('./fonts/Arial_regular.woff') format('woff'), /* Modern Browsers */
+		 url('./fonts/Arial_regular.otf')  format('opentype'), /*  */
+	     url('./fonts/Arial_regular.ttf')  format('truetype'), /* Safari, Android, iOS */
+	     url('./fonts/Arial_regular.svg#Arial_regular') format('svg'); /* Legacy iOS */
+	 font-weight: 400;
+	 font-style: normal;
+}
+
+body {
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "arialregular", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}

@@ -1,0 +1,31 @@
+$fontBlack: arialblack, sans-serif;
+$fontRegular: arialregular, sans-serif;
+$mainBlue: #5a9ded;
+
+.whiteSection{
+  .capabilities-wrapper{
+    width: 100%;
+    display: block;
+    text-align: center;
+    height: 100%;
+    .capabilities-container{
+      margin: 0 auto;
+      img{
+        width: 80%;
+        margin: 0 auto;
+        display: block;
+        @media all and (min-width: 768px) and (max-width: 1024px) {
+          width: 100%;
+        }
+
+        @media all and (min-width: 480px) and (max-width: 768px) {
+          width: 100%;
+        }
+
+        @media all and (max-width: 480px) {
+          width: 100%;
+        }
+      }
+    }
+  }
+}

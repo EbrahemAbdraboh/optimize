@@ -1,0 +1,21 @@
+$fontBlack: arialblack, sans-serif;
+$fontRegular: arialregular, sans-serif;
+$mainBlue: #5a9ded;
+$black: #3a3a3a;
+
+
+.text-with-arrow-wrapper{
+  list-style-image: url('arrow.png');
+  li{
+    p{
+      color: $black;
+      font-family: $fontRegular;
+      font-size: 1.5em;
+      text-align: left;
+      line-height: 1.5;
+      @media all and (max-width: 768px) {
+        font-size: 1em;
+      }
+    }
+  }
+}

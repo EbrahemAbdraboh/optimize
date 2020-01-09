@@ -1,0 +1,177 @@
+@import "../../../style/main.scss";
+
+
+.footer{
+  display: block;
+  position: relative;
+  background: #2b2929;
+  width: 100%;
+  height: 100%;
+  padding: 50px 30px 60px;
+  .logo{
+    margin-top: 10px;
+    img{
+      width: 100%;
+      display: block;
+      margin:0;
+      padding:0;
+    }
+  }
+  .email{
+    color: #c4c0c0;
+    font-family: $fontBlack;
+    margin: 25px auto;
+    text-align: center;
+  }
+  .social{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    .facebook{
+      background-image: url(./facebook.png);
+      width: 54px;
+      height: 54px;
+      display: flex;
+      margin:0 5px;
+      -webkit-transition: all 0.3s ease-in-out;
+      -moz-transition: all 0.3s ease-in-out;
+      -o-transition: all 0.3s ease-in-out;
+      transition: all 0.3s ease-in-out;
+      a{
+        display: block;
+        cursor: pointer;
+        width: 54px;
+        height: 54px;
+      }
+      &:hover{
+        background-image: url(./facebook-hover.png);
+      }
+    }
+    .linkedin{
+      background-image: url(./linkedin.png);
+      width: 54px;
+      height: 54px;
+      display: flex;
+      margin:0 5px;
+      -webkit-transition: all 0.3s ease-in-out;
+      -moz-transition: all 0.3s ease-in-out;
+      -o-transition: all 0.3s ease-in-out;
+      transition: all 0.3s ease-in-out;
+      a{
+        display: block;
+        cursor: pointer;
+        width: 54px;
+        height: 54px;
+      }
+      &:hover{
+        background-image: url(./linkedin-hover.png);
+
+      }
+    }
+  }
+  /*///////////////////////////////////////////////////////////
+  // Footer Site Map
+  ///////////////////////////////////////////////////////////*/
+  .contacts{
+    display: block;
+    color: #fff;
+    text-align: left;
+    padding: 0;
+    margin-bottom: 0;
+    ul{
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      li{
+          margin: 0;
+          padding: 0;
+          cursor: pointer;
+          a{
+              font-size: 20px;
+              color: #c4c0c0;
+              display: block;
+              text-decoration: none;
+              -webkit-transition: all 0.5s ease-in-out;
+              -moz-transition: all 0.5s ease-in-out;
+              -o-transition: all 0.5s ease-in-out;
+              transition: all 0.5s ease-in-out;
+              &:hover{
+                color: #5a9ded;
+                font-family: 'arialBlack';
+              }
+            }
+      }
+    }
+    p{
+      font-size: 1.5em;
+      margin-bottom: 20px;
+      font-family: $fontBlack;
+
+    }
+    .cell-number{
+      margin-bottom: 5px;
+      color: $whiteGray;
+      display: flex;
+      span{
+        font-size: 20px;
+        margin:0;
+        padding-left: 5px;
+
+      }
+
+    }
+
+  }
+  /*///////////////////////////////////////////////////////////
+  // Footer Copyright
+  ///////////////////////////////////////////////////////////*/
+  .copyright{
+    width: 100%;
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: $mainRed;
+    margin:0;
+    padding: 0;
+    height: 40px;
+    p{
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-self: center;
+      text-align: center;
+      margin:0;
+      padding: 0;
+      font-size: 1em;
+      font-family: $fontBlack;
+      color: #fff;
+    }
+  }
+}
+
+/**
+ * Basic CSS Media Query Template
+ * TODO: I should probably use Sass...
+ * Author: Michael Vieth
+ * ------------------------------------------
+ *  Responsive Grid Media Queries - 1280, 1024, 768, 480
+ *   1280-1024   - desktop (default grid)
+ *   1024-768    - tablet landscape
+ *   768-480     - tablet
+ *   480-less    - phone landscape & smaller
+ * --------------------------------------------
+ */
+
+@media all and (max-width: 480px) {
+  .footer {
+    padding: 50px 0 60px;
+    .contacts{
+      margin-bottom: 20px;
+    }
+    .email{
+      font-family: $fontRegular;
+    }
+  }
+}

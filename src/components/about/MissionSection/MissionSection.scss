@@ -1,0 +1,62 @@
+$fontBlack: arialblack, sans-serif;
+$fontRegular: arialregular, sans-serif;
+$mainBlue: #5a9ded;
+$black: #3a3a3a;
+
+.graySection{
+  .mission-content{
+    margin: 1em 0;
+    .mobile-view{
+      display: none;
+      margin-bottom: 20px;
+      @media all and (max-width: 480px) {
+        display: block;
+      }
+    }
+    .mobile-hidden{
+      display: block;
+      @media all and (max-width: 480px) {
+        display: none;
+      }
+    }
+    .mission-text{
+      color: $black;
+      font-family: $fontRegular;
+      font-size: 1.5em;
+      text-align: justify;
+      line-height: 1.5;
+      @media all and (max-width: 768px) {
+        font-size: 1em;
+      }
+    }
+    img{
+      width: 100%;
+    }
+    .icons-wrapper{
+      margin: 1em auto;
+      img{
+        width: 40%;
+        display: block;
+        margin: 0 auto;
+      }
+      .mission-icons-title{
+        display: block;
+        text-align: center;
+        font-size: 1em;
+        font-family: $fontBlack;
+        margin: 1em auto;
+      }
+      .mission-icons-text{
+        display: block;
+        text-align: center;
+        font-size: 1em;
+        font-family: $fontRegular;
+        width: 70%;
+        line-height: 1;
+        margin: 0 auto 1em;
+
+
+      }
+    }
+  }
+}

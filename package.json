@@ -2,7 +2,7 @@
   "name": "optimize",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://EbrahemAbdraboh.github.io/optimize"
+  "homepage": "http://ebrahemabdraboh.github.io/optimize"
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.4.0",

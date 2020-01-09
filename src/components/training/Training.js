@@ -3,7 +3,7 @@ import { Jumbotron } from '../common/jumbotron/Jumbotron';
 import { Layout } from '../common/Layout';
 import SectionWithBg from '../common/SectionWithBg/SectionWithBg';
 // import {TrainingtCard} from './TrainingtCard/TrainingtCard';
-import { Row } from 'react-bootstrap';
+// import { Row } from 'react-bootstrap';
 
 export const Training = (props) => (
   <div>

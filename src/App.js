@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { HashRouter as Router, Route, Switch } from 'react-router-dom';
+import { HashRouter  as Route, Switch } from 'react-router-dom';
 import { Home } from './components/home/Home';
 import { About } from './components/about/About';
 import { Capabilities } from './components/capabilities/Capabilities';
@@ -46,7 +46,7 @@ class App extends Component {
     return (
       <React.Fragment>
 
-        <Router>
+        <HashRouter >
           {this.state.loading && <div className='loading'><img src={loader} alt='OPTIMIZE-Engineering-Loader'/></div>}
           <header>
             <Header drawerClickHandler={this.drawerToggleClickHandler} />
@@ -63,7 +63,7 @@ class App extends Component {
             <Route component={NoMatch} />
           </Switch>
           <Footer />
-        </Router>
+        </HashRouter >
         <ScrollButton />
       </React.Fragment>
     );

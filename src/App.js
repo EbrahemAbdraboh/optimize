@@ -12,15 +12,20 @@ import { Header } from './components/common/header/Header';
 import SideDrawer from './components/common/header/DrowerNavigation/SideDrawer';
 import Backdrop from './components/common/header/Backdrop/Backdrop';
 import { Footer } from './components/common/footer/Footer';
-
+import loader from './assets/loader.svg';
+import './App.scss';
 
 class App extends Component {
   constructor(props, context) {
     super(props, context);
     this.state = {
       sideDrawerOpen: false,
+      loading: true,
 
     };
+  }
+  componentDidMount() {
+    this.setState({ loading: false })
   }
   drawerToggleClickHandler = () => {
     this.setState(prevState => {
@@ -42,13 +47,14 @@ class App extends Component {
       <React.Fragment>
 
         <Router>
+          {this.state.loading && <div className='loading'><img src={loader} alt='OPTIMIZE-Engineering-Loader'/></div>}
           <header>
             <Header drawerClickHandler={this.drawerToggleClickHandler} />
           </header>
           <SideDrawer show={this.state.sideDrawerOpen} click={this.backdropClickHandler} />
           {backdrop}
           <Switch>
-            <Route exact path="/optimize" component={Home} />
+            <Route exact path="/" component={Home} />
             <Route path="/about" component={About} />
             <Route path="/capabilities" component={Capabilities} />
             <Route path="/services" component={Services} />

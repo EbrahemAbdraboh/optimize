@@ -50,7 +50,7 @@ class Root extends Component {
       <React.Fragment >
         <Router >
           <header>
-            <Header drawerClickHandler={this.drawerToggleClickHandler} />
+            <Header drawerClickHandler={this.drawerToggleClickHandler} prevent={this.eventPrevent}/>
           </header>
           <SideDrawer show={this.state.sideDrawerOpen} click={this.backdropClickHandler} />
           {backdrop}

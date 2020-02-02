@@ -13,23 +13,36 @@
   @media all and (max-width: 480px) {
     top: 70px;
   }
-  .sidenav---sidenav---_2tBP{
-    width: 100%;
-    min-width: 100%;
+  .metismenu{
     border-radius: 10px;
     background-color: $mainBlue;
-    .sidenav---sidenav-toggle---1KRjR{
-      display: none;
+    height: 100%;
+    &:after{
+      box-shadow: none;
     }
-    .sidenav---navtext---1AE_f{
+    .metismenu-link{
       font-family: $fontBlack;
       display: block;
       cursor: pointer;
       text-decoration: none;
       font-size: 16px;
       color: #fff;
-      padding: 0 25px;
+      I.metismenu-icon{
+        width: 2em;
+      }
+    }
 
+    .metismenu-link.active{
+      background: #004085;
+
+    }
+  }
+  .visible{
+    padding: 0;
+    background-color: #1c538e;
+    .visible{
+      padding: 0;
+      background-color: #667f9a;
     }
   }
 }

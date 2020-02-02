@@ -56,22 +56,22 @@ export class Header extends Component {
                 <div className="toolbar_navigation-items">
                   <ul>
                     <li>
-                      <Link  to="/">Home</Link>
+                      <Link  to="/" onClick={this.props.prevent}>Home</Link>
                     </li>
                     <li>
-                      <Link  to="/about" >About</Link>
+                      <Link  to="/about" onClick={this.props.prevent}>About</Link>
                     </li>
                     <li>
-                      <Link to="/capabilities">Capapilities </Link>
+                      <Link to="/capabilities" onClick={this.props.prevent}>Capapilities </Link>
                     </li>
                     <li>
-                      <Link to="/services">Services </Link>
+                      <Link to="/services" onClick={this.props.prevent}>Services </Link>
                     </li>
                     <li>
-                      <Link to="/projects">Projects </Link>
+                      <Link to="/projects" onClick={this.props.prevent}>Projects </Link>
                     </li>
                     <li>
-                      <Link to="/training">Training </Link>
+                      <Link to="/training" onClick={this.props.prevent}>Training </Link>
                     </li>
                   </ul>
                 </div>

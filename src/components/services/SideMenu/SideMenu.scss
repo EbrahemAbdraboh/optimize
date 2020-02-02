@@ -2,10 +2,34 @@
 
 .side-menu-wrapper{
   position: sticky;
-  top: 70px;
+  top: 90px;
   height: auto;
-  
+  border-radius: 10px;
+  width: 100%;
+  display: block;
+  height: 400px;
+  overflow: hidden;
+  margin-bottom: 25px;
   @media all and (max-width: 480px) {
-    top: 50px;
+    top: 70px;
+  }
+  .sidenav---sidenav---_2tBP{
+    width: 100%;
+    min-width: 100%;
+    border-radius: 10px;
+    background-color: $mainBlue;
+    .sidenav---sidenav-toggle---1KRjR{
+      display: none;
+    }
+    .sidenav---navtext---1AE_f{
+      font-family: $fontBlack;
+      display: block;
+      cursor: pointer;
+      text-decoration: none;
+      font-size: 16px;
+      color: #fff;
+      padding: 0 25px;
+
+    }
   }
 }

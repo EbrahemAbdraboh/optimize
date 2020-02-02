@@ -1,0 +1,26 @@
+@import "../../../style/main.scss";
+
+.control-panel-wrapper{
+  background-color: #c3c5c8;
+  border-radius: 10px;
+  margin: 0 0 20px;
+  padding: 0 20px;
+  display: flex;
+  height: auto;
+  position: sticky;
+  top: 66px;
+  z-index: 99;
+  width: 100%;
+  @media all and (min-width: 480px) and (max-width: 768px) {
+    top: 60px;
+  }
+  @media all and (max-width: 480px) {
+    top: 38px;
+  }
+  .filter-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+}

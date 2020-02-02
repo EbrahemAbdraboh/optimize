@@ -1,0 +1,50 @@
+@import "../../../style/main.scss";
+
+.services-content-wrapper{
+  background-color: #dee0e2;
+  border-radius: 10px;
+  margin: 0;
+  padding: 20px;
+  .services-title{
+    color: $mainBlue;
+    font-family: $fontBlack;
+    text-transform: uppercase;
+    font-size: 2em;
+    text-align: left;
+    @media all and (max-width: 768px) {
+      font-size: 1em;
+    }
+  }
+  .services-sub-title{
+    color: $mainBlue;
+    font-family: $fontRegular;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1.5em;
+    text-align: left;
+    @media all and (max-width: 768px) {
+      font-size: 1em;
+    }
+  }
+  .services-sub-sub-title{
+    color: $black;
+    font-family: $fontRegular;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1.5em;
+    text-align: left;
+    @media all and (max-width: 768px) {
+      font-size: 1em;
+    }
+  }
+  .services-text{
+    color: $black;
+    font-family: $fontRegular;
+    font-size: 1.5em;
+    text-align: justify;
+    line-height: 1.5;
+    @media all and (max-width: 768px) {
+      font-size: 1em;
+    }
+  }
+}

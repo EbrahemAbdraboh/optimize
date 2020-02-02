@@ -102,7 +102,7 @@ export const Capabilities = (props) => (
             <TextWithArrow text='Primavera' />
             <TextWithArrow text='Olga' />
             <TextWithArrow text='Flare-net' />
-            <TextWithArrow text='Pipe-phase' />
+            <TextWithArrow text='Smart Plant' />
             <TextWithArrow text='Pipe-net' />
           </Col>
           <Col xs={12} md={6}>
@@ -110,7 +110,6 @@ export const Capabilities = (props) => (
           <TextWithArrow text='Hydraulics Analysis' />
           <TextWithArrow text='PDS Equipment 3D Modeling' />
           <TextWithArrow text='CAESAR II' />
-          <TextWithArrow text='Smart Plant' />
           <TextWithArrow text='In-house Software' />
           </Col>
         </Row>

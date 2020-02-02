@@ -1,1 +1,165 @@
 @import "../../../style/main.scss";
+
+.courses-wrapper{
+  .course-item{
+    margin-bottom: 25px;
+
+    .card{
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: 0 1px 4px gray;
+      cursor: default;
+      .image-wrapper{
+        overflow: hidden;
+        height: 100%;
+        width: auto;
+        .card-img-top{
+          border-top-left-radius: 10px;
+          border-bottom-left-radius: 10px;
+          height: 100%;
+          -webkit-transition: all 1s ease-in-out;
+          -moz-transition: all 1s ease-in-out;
+          -o-transition: all 1s ease-in-out;
+          transition: all 1s ease-in-out;
+        }
+
+      }
+      .card-hover{
+        background-color: #5a9dedba;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        border-radius: 10px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        -webkit-transition: all 0.2s ease-in-out;
+        -moz-transition: all 0.2s ease-in-out;
+        -o-transition: all 0.2s ease-in-out;
+        transition: all 0.2s ease-in-out;
+        .h5{
+          color: #fff;
+          font-family: $fontBlack;
+          font-size: 24px;
+          display: flex;
+          align-self: center;
+          width: 80%;
+
+        }
+      }
+
+      &:hover{
+        box-shadow: 0 8px 9px #809696;
+        .image-wrapper{
+          .card-img-top{
+            -webkit-transform: scale(1.5);
+            -moz-transform: scale(1.5);
+            -o-transform: scale(1.5);
+            transform: scale(1.5);
+          }
+        }
+        .card-body{
+          .h5{
+            color: $mainBlue;
+          }
+        }
+      }
+      .card-body{
+        padding-left: 0;
+        text-align: left;
+        span{
+          font-family: $fontBlack;
+          color: #a5a0a0;
+          font-size: 12px;
+          margin: 0;
+          padding: 0;
+        }
+        .h5{
+          color: $black;
+          font-family: $fontBlack;
+          font-size: 1em;
+          -webkit-transition: all 0.2s ease-in-out;
+          -moz-transition: all 0.2s ease-in-out;
+          -o-transition: all 0.2s ease-in-out;
+          transition: all 0.2s ease-in-out;
+          @media all and (max-width: 768px) {
+            font-size: 14px;
+          }
+          @media all and (max-width: 320px) {
+            font-size: 12px;
+          }
+        }
+        .card-title{
+          overflow: hidden;
+          max-height: 60px;
+          min-height: 60px;
+          @media all and (max-width: 768px) {
+            overflow: auto;
+            max-height: 68px;
+            min-height: 68px;
+          }
+        }
+        .auth-wrapper{
+          display: flex;
+          flex-direction: row;
+          img{
+            width: 45px;
+            height:45px;
+            margin-right: 10px;
+            @media all and (max-width: 768px) {
+              display: none;
+              margin: 0;
+            }
+          }
+          .auth-content{
+            position: relative;
+            width: 100%;
+            p{
+              margin:0;
+              font-family: $fontBlack;
+              color: #a5a0a0;
+              font-size: 1em;
+              @media all and (max-width: 768px) {
+                font-size: 14px;
+              }
+            }
+            span{
+              color: $mainBlue;
+            }
+            .time{
+              position: absolute;
+              bottom: 0;
+              right: 0;
+            }
+          }
+        }
+        .text{
+          font-family: $fontRegular;
+          font-size: 16px;
+          color: $black;
+          margin: 0;
+        }
+        .execution-green{
+          font-size: 14px;
+          color: #fff;
+          font-family: $fontRegular;
+          text-align: center;
+          width: 100%;
+          background-color: #3dd56f;
+          border-radius: 4px;
+        }
+        .execution-gray{
+          font-size: 14px;
+          color: #b1abab;
+          font-family: $fontRegular;
+          text-align: center;
+          width: 100%;
+          background-color: #e6e1e1;
+          border-radius: 4px;
+        }
+      }
+    }
+  }
+}

@@ -1,10 +1,11 @@
 import React from 'react';
-import {Button} from 'react-bootstrap';
+// import {Button} from 'react-bootstrap';
+import { Link } from 'react-router-dom'
 import './MoreButton.scss';
 
 
 export const MoreButton = (props) => (
     <div className='button-wrapper'>
-      <Button href={props.page} variant="primary" size="lg" >More</Button>
+      <Link to={props.page} className="btn btn-primary btn-lg" onClick={props.prevent}>More</Link>
     </div>
 )

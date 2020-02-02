@@ -1,0 +1,11 @@
+@import "../../../style/main.scss";
+
+.side-menu-wrapper{
+  position: sticky;
+  top: 70px;
+  height: auto;
+  
+  @media all and (max-width: 480px) {
+    top: 50px;
+  }
+}

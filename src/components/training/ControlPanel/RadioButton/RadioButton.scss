@@ -1,0 +1,93 @@
+@import "../../../../style/main.scss";
+
+$md-radio-checked-color: $mainBlue;
+$md-radio-border-color: #a5a0a0;
+$md-radio-size: 20px;
+$md-radio-checked-size: 10px;
+$md-radio-ripple-size: 15px;
+
+@keyframes ripple {
+
+  0% {
+    box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0.0);
+  }
+
+  50% {
+    box-shadow: 0px 0px 0px $md-radio-ripple-size rgba(0, 0, 0, 0.1);
+  }
+
+  100% {
+    box-shadow: 0px 0px 0px $md-radio-ripple-size rgba(0, 0, 0, 0);
+  }
+}
+
+.RadioButton {
+    margin: 25px 0;
+    @media all and (max-width: 767px) {
+      margin: 15px 0;
+    }
+    @media all and (max-width: 320px) {
+      margin: 10px 0;
+    }
+    input[type="radio"] {
+        display: none;
+        &:checked + label{
+            color: $mainBlue;
+        }
+        &:checked + label:before {
+            border-color: $md-radio-checked-color;
+            animation: ripple 0.2s linear forwards;
+        }
+
+        &:checked + label:after {
+            transform: scale(1);
+        }
+    }
+
+    label {
+        display: inline-block;
+        height:$md-radio-size;
+        position: relative;
+        padding: 0 0 0 ($md-radio-size + 10px);
+        margin-bottom: 0;
+        cursor: pointer;
+        vertical-align: middle;
+        font-family: $fontBlack;
+        color: #a5a0a0;
+        font-size: 1rem;
+        @media all and (max-width: 767px) {
+          font-size: 14px;
+          padding: 0 0 0 ($md-radio-size + 5px);
+        }
+        @media all and (max-width: 320px) {
+          font-size: 12px;
+          font-family: $fontRegular;
+          font-weight: bold;
+          padding: 0 0 0 ($md-radio-size + 1px);
+        }
+        &:before, &:after {
+            position: absolute;
+            content: '';
+            border-radius: 50%;
+            transition: all .3s ease;
+            transition-property: transform, border-color;
+        }
+
+        &:before {
+            left: 0;
+            top: 0;
+            width: $md-radio-size;
+            height: $md-radio-size;
+            border: 2px solid $md-radio-border-color;
+        }
+
+        &:after {
+            top: $md-radio-size / 2 - $md-radio-checked-size / 2;
+            left: $md-radio-size / 2 - $md-radio-checked-size / 2;
+            width:$md-radio-checked-size;
+            height:$md-radio-checked-size;
+            transform: scale(0);
+            background:$md-radio-checked-color;
+        }
+    }
+}

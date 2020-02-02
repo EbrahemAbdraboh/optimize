@@ -7,83 +7,83 @@ import './SideMenu.scss';
 const content=[
     {
         label: 'Engineering Services',
-        to: '#a-link',
+        to: '#eng',
         content: [
             {
                 label: 'Machine Learning',
-                to: '#another-1',
+                to: '#eng-11',
             },
             {
                 label: 'Process Modeling',
-                to: '#another-2k',
+                to: '#eng-12',
                 content: [
                     {
                         label: 'UPSTREAM WELLS AMNAGEMNT',
-                        to: '#another-1',
+                        to: '#eng-121',
                     },
                     {
                         label: 'Pipelines',
-                        to: '#another-2k',
+                        to: '#eng-122',
                     },
                     {
                         label: 'Gas gathering',
-                        to: '#another-2k',
+                        to: '#eng-123',
                     },
                     {
                         label: 'Refinery Units',
-                        to: '#another-2k',
+                        to: '#eng-124',
                     },
                     {
                         label: 'Advanced Analysis Group',
-                        to: '#another-2k',
+                        to: '#eng-125',
                     },
                 ],
             },
             {
                 label: 'Mechanical Engineering',
-                to: '#another-2k',
+                to: '#eng-13',
             },
             {
                 label: 'Piping Engineering',
-                to: '#another-2k',
+                to: '#eng-14',
             },
             {
                 label: 'Civil and Structural',
-                to: '#another-2k',
+                to: '#eng-15',
             },
             {
                 label: 'Electrical Engineering',
-                to: '#another-2k',
+                to: '#eng-16',
             },
             {
                 label: 'Instrumentation',
-                to: '#another-2k',
+                to: '#eng-17',
             },
             {
                 label: 'FEED and Detailed',
-                to: '#another-2k',
+                to: '#eng-18',
             },
 
         ],
     },
     {
-        label: 'rocess Safety & HSE',
-        to: '#a-link3',
+        label: 'Process Safety & HSE',
+        to: '#process',
     },
     {
         label: 'Project Management',
-        to: '#a-link4',
+        to: '#project',
     },
     {
         label: 'Construction Supervision',
-        to: '#a-link5',
+        to: '#construction',
     },
 ];
 
 export const SideMenu = props => {
   return(
     <div className='side-menu-wrapper'>
-      <MetisMenu content={content}  />
+      <MetisMenu content={content}  activeLinkFromLocation/>
     </div>
   );
 };

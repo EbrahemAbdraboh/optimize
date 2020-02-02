@@ -13,6 +13,10 @@ export class Services extends React.Component{
     }
   }
 
+  sideServicesHandler() {
+    console.log(window.pageYOffset);
+  }
+
   render(){
     return(
       <div>
@@ -20,7 +24,7 @@ export class Services extends React.Component{
         <SectionWithBg ImageClass='whiteSection'>
           <Row>
             <Col xs={12} sm={4}>
-              <SideMenu />
+              <SideMenu sideServicesHandler={this.sideServicesHandler}/>
             </Col>
             <Col xs={12} sm={8}>
               <ServicesContent />

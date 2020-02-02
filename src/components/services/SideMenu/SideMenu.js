@@ -83,7 +83,11 @@ const content=[
 export const SideMenu = props => {
   return(
     <div className='side-menu-wrapper'>
-      <MetisMenu content={content}  activeLinkFromLocation/>
+      <MetisMenu
+        content={content}
+        activeLinkFromLocation
+        onSelected={props.sideServicesHandler}
+        />
     </div>
   );
 };

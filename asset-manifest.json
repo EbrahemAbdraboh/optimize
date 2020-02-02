@@ -1,17 +1,19 @@
 {
   "files": {
-    "main.css": "/optimize/static/css/main.a5658c9a.chunk.css",
-    "main.js": "/optimize/static/js/main.c656d32f.chunk.js",
-    "main.js.map": "/optimize/static/js/main.c656d32f.chunk.js.map",
+    "main.css": "/optimize/static/css/main.87c41e7d.chunk.css",
+    "main.js": "/optimize/static/js/main.14a465cd.chunk.js",
+    "main.js.map": "/optimize/static/js/main.14a465cd.chunk.js.map",
     "runtime-main.js": "/optimize/static/js/runtime-main.5b1fb22e.js",
     "runtime-main.js.map": "/optimize/static/js/runtime-main.5b1fb22e.js.map",
-    "static/js/2.2cf472c0.chunk.js": "/optimize/static/js/2.2cf472c0.chunk.js",
-    "static/js/2.2cf472c0.chunk.js.map": "/optimize/static/js/2.2cf472c0.chunk.js.map",
+    "static/css/2.f6e6f51f.chunk.css": "/optimize/static/css/2.f6e6f51f.chunk.css",
+    "static/js/2.05a34c1d.chunk.js": "/optimize/static/js/2.05a34c1d.chunk.js",
+    "static/js/2.05a34c1d.chunk.js.map": "/optimize/static/js/2.05a34c1d.chunk.js.map",
     "index.html": "/optimize/index.html",
-    "precache-manifest.ca373e754166a1c1832bd116a4dd9b5b.js": "/optimize/precache-manifest.ca373e754166a1c1832bd116a4dd9b5b.js",
+    "precache-manifest.55622f65cb2d149b0f8135d2d90876c2.js": "/optimize/precache-manifest.55622f65cb2d149b0f8135d2d90876c2.js",
     "service-worker.js": "/optimize/service-worker.js",
-    "static/css/main.a5658c9a.chunk.css.map": "/optimize/static/css/main.a5658c9a.chunk.css.map",
-    "static/js/2.2cf472c0.chunk.js.LICENSE": "/optimize/static/js/2.2cf472c0.chunk.js.LICENSE",
+    "static/css/2.f6e6f51f.chunk.css.map": "/optimize/static/css/2.f6e6f51f.chunk.css.map",
+    "static/css/main.87c41e7d.chunk.css.map": "/optimize/static/css/main.87c41e7d.chunk.css.map",
+    "static/js/2.05a34c1d.chunk.js.LICENSE": "/optimize/static/js/2.05a34c1d.chunk.js.LICENSE",
     "static/media/index.scss": "/optimize/static/media/arial-black.fd3369f5.woff",
     "static/media/SectionWithBg.scss": "/optimize/static/media/training-section.99f0a4f5.png",
     "static/media/jumbotron.scss": "/optimize/static/media/training-slide.025acebb.png",
@@ -30,8 +32,9 @@
   },
   "entrypoints": [
     "static/js/runtime-main.5b1fb22e.js",
-    "static/js/2.2cf472c0.chunk.js",
-    "static/css/main.a5658c9a.chunk.css",
-    "static/js/main.c656d32f.chunk.js"
+    "static/css/2.f6e6f51f.chunk.css",
+    "static/js/2.05a34c1d.chunk.js",
+    "static/css/main.87c41e7d.chunk.css",
+    "static/js/main.14a465cd.chunk.js"
   ]
 }

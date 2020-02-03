@@ -21,6 +21,7 @@ class App extends Component {
 
   render() {
     return (
+
       <div className='main-container' >
         <Root onLoad={this.loadingHandle} />
         { this.state.loading ? <div className='loading'><img src={loader} alt='OPTIMIZE-Engineering-Loader'/></div> : null}

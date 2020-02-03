@@ -13,6 +13,7 @@ import SideDrawer from './components/common/header/DrowerNavigation/SideDrawer';
 import Backdrop from './components/common/header/Backdrop/Backdrop';
 import { Footer } from './components/common/footer/Footer';
 
+
 class Root extends Component {
   constructor(props, context) {
     super(props, context);
@@ -47,27 +48,28 @@ class Root extends Component {
     }
     return (
 
-      <React.Fragment >
-        <Router >
-          <header>
-            <Header drawerClickHandler={this.drawerToggleClickHandler} prevent={this.eventPrevent}/>
-          </header>
-          <SideDrawer show={this.state.sideDrawerOpen} click={this.backdropClickHandler} />
-          {backdrop}
-          <Switch>
-            <Route exact path="/" component={Home} />
-            <Route path="/about" component={About} />
-            <Route path="/capabilities" component={Capabilities} />
-            <Route path="/services" component={Services} />
-            <Route path="/projects" component={Projects} />
-            <Route path="/training" component={Training} />
-            <Route component={NoMatch} />
-          </Switch>
-          <Footer prevent={this.eventPrevent}/>
+        <React.Fragment >
+          <Router >
+            <header>
+              <Header drawerClickHandler={this.drawerToggleClickHandler} prevent={this.eventPrevent}/>
+            </header>
+            <SideDrawer show={this.state.sideDrawerOpen} click={this.backdropClickHandler} />
+            {backdrop}
+            <Switch>
+              <Route exact path="/" component={Home} />
+              <Route path="/about" component={About} />
+              <Route path="/capabilities" component={Capabilities} />
+              <Route path="/services" component={Services} />
+              <Route path="/projects" component={Projects} />
+              <Route path="/training" component={Training} />
+              <Route component={NoMatch} />
+            </Switch>
+            <Footer prevent={this.eventPrevent}/>
 
-        </Router >
-        <ScrollButton />
-      </React.Fragment>
+          </Router >
+          <ScrollButton />
+        </React.Fragment>
+      
     );
   }
 }

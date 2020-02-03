@@ -13,6 +13,7 @@
     "node-sass": "^4.13.0",
     "react": "^16.12.0",
     "react-bootstrap": "^1.0.0-beta.16",
+    "react-custom-scrollbars": "^4.2.1",
     "react-dom": "^16.12.0",
     "react-icons": "^3.8.0",
     "react-metismenu": "^1.4.0",

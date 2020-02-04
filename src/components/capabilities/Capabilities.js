@@ -35,15 +35,21 @@ export const Capabilities = (props) => (
             <TextWithArrow text='Compressor stations.' />
             <TextWithArrow text='Distributed control systems.' />
             <TextWithArrow text='Refineries.' />
+            <TextWithArrow text='Utilities.' />
+            <TextWithArrow text='Off sites.' />
+
           </Col>
           <Col xs={12} md={6}>
           <TextWithArrow text='Communications systems including SCADA.' />
           <TextWithArrow text='Pumping stations.' />
           <TextWithArrow text='Metering stations.' />
           <TextWithArrow text='Electrical transmission lines.' />
-          <TextWithArrow text='Security facilities.' />
           <TextWithArrow text='Petrochemical plant modifications.' />
           <TextWithArrow text='Firefighting and hydraulic analysis.' />
+          <TextWithArrow text='Oil pier.' />
+          <TextWithArrow text='Pipelines.' />
+          <TextWithArrow text='Lube oil & grease plants.' />
+
           </Col>
         </Row>
         <Title titleType='sub-title' title='Feasibility' border='title-border' />
@@ -104,6 +110,7 @@ export const Capabilities = (props) => (
             <TextWithArrow text='Flare-net' />
             <TextWithArrow text='Smart Plant' />
             <TextWithArrow text='Pipe-net' />
+            <TextWithArrow text='HYSIS' />
           </Col>
           <Col xs={12} md={6}>
           <TextWithArrow text='Auto-cad' />
@@ -111,6 +118,8 @@ export const Capabilities = (props) => (
           <TextWithArrow text='PDS Equipment 3D Modeling' />
           <TextWithArrow text='CAESAR II' />
           <TextWithArrow text='In-house Software' />
+          <TextWithArrow text='PRO-II' />
+          <TextWithArrow text='Equipment sizing & HEXTRAN' />
           </Col>
         </Row>
       </div>

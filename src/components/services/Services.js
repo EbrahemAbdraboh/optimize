@@ -15,7 +15,7 @@ export class Services extends React.Component{
   }
 
 
-  componentDidUpdate() {
+  componentWillReceiveProps() {
 
     // const {current} = this.state
     // const target = current -

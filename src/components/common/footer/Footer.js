@@ -3,8 +3,6 @@ import { Container, Row, Col } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import logo from '../../../assets/logo.png';
 import egypt from './egypt-flag.png';
-import qatar from './qater-flag.png';
-import syrbia from './syrbia-flag.png';
 import uk from './uk-flag.png';
 import './Footer.scss';
 
@@ -62,14 +60,7 @@ export const Footer = props => {
                 <img src={egypt} alt='Optimize-engineering'/>
                 <span>+201016296960</span>
               </div>
-              <div className="cell-number">
-                <img src={qatar} alt='Optimize-engineering'/>
-                <span>+97477198200</span>
-              </div>
-              <div className="cell-number">
-                <img src={syrbia} alt='Optimize-engineering'/>
-                <span>+381655255858</span>
-              </div>
+
               <div className="cell-number">
                 <img src={uk} alt='Optimize-engineering'/>
                 <span>+447500903775</span>

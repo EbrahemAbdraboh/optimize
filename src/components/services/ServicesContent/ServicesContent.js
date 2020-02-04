@@ -177,20 +177,8 @@ export const ServicesContent = props => {
           <TextWithArrow text='Inspection &amp; testing of equipment.' />
           <TextWithArrow text='Configuration management.' />
           <TextWithArrow text='Contract interface management.' />
-          <TextWithArrow text='Maintenance.' />
-          <TextWithArrow text='Construction and Completion.' />
-          <TextWithArrow text='Plant start-up and testing.' />
-          <TextWithArrow text='Plant operations.' />
-          <TextWithArrow text='Enabling cooperation among all participants in the project, OPTIMIZE employs proven, effective project management tools to control the project consistent with plan.' />
+          
 
-      {/* Supervision Level 4    */}
-        <p id='construction' className='services-title'>Construction Supervision</p>
-        <p className='services-text'>OPTIMIZE supports the construction plans throughout the full lifecycle of the project to yield the greatest possible benefits to our customers.</p>
-        <p className='services-text'>OPTIMIZE helps customers realize the maximum value of their project delivery by converting high-potential value options identified in the conceptual phase into fully defined, safe and successfully executed ones.</p>
-        <p className='services-sub-title'>Procurement and Expediting</p>
-        <TextWithArrow text='Vendors contacts and negotiations.' />
-        <TextWithArrow text='Selecting best scenario for combining local and overseas fabrication &amp; Packaging.' />
-        <TextWithArrow text='TBE (Technical Bid Evaluation).' />
 
     </div>
   );

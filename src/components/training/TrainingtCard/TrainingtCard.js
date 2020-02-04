@@ -1,6 +1,6 @@
 import React from 'react'
 import { Row, Col, Card } from 'react-bootstrap';
-import authProfile from './profile.png';
+
 import './TrainingtCard.scss';
 
 
@@ -23,9 +23,8 @@ export class TrainingtCard extends React.Component{
 
                     <Card.Title>{course.title}</Card.Title>
                     <div className='auth-wrapper'>
-                      <img src={authProfile} alt='Optimize Academy' />
+
                       <div className='auth-content'>
-                        <p>{course.auth}</p>
                         <span>{course.type}</span>
                         <span className='time'>{course.time}</span>
                       </div>

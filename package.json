@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "homepage": "http://ebrahemabdraboh.github.io/optimize",
+  "": "167.172.180.124",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.4.0",
@@ -28,7 +29,8 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d build",
+    "deploy-production": "react-scripts build && scp -r ./build/* user@server_ip_address:/var/www/html"
   },
   "eslintConfig": {
     "extends": "react-app"

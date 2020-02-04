@@ -9,12 +9,21 @@ export class Services extends React.Component{
   constructor(props) {
     super(props)
     this.state = {
+      // current : window.pageYOffset
 
     }
   }
 
-  sideServicesHandler() {
-    console.log(window.pageYOffset);
+
+  componentDidUpdate() {
+
+    // const {current} = this.state
+    // const target = current -
+    window.scrollTo({
+      top: (window.pageYOffset - 75) ,
+      behavior: "smooth"
+    });
+
   }
 
   render(){

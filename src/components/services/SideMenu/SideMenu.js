@@ -74,10 +74,7 @@ const content=[
         label: 'Project Management',
         to: '#project',
     },
-    {
-        label: 'Construction Supervision',
-        to: '#construction',
-    },
+    
 ];
 
 export const SideMenu = props => {

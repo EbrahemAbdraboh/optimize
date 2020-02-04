@@ -125,7 +125,7 @@ export class Projects extends React.Component{
   render(){
     return(
       <div>
-        <Jumbotron jumboClass='projects-slide' title='Projects' text='OPTIMIZE team has participated in many several projects as below'/>
+        <Jumbotron jumboClass='projects-slide' title='Projects' text='OPTIMIZE team has participated in the following projects'/>
         <SectionWithBg ImageClass='whiteSection'>
           <div className='projects-wrapper'>
             <ProjectCard Projects={this.state.Projects}/>

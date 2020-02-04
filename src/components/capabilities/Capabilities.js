@@ -48,7 +48,7 @@ export const Capabilities = (props) => (
         </Row>
         <Title titleType='sub-title' title='Feasibility' border='title-border' />
         <p className='capabilities-sub-title'>Machine Learning and Data Science</p>
-        <p className='capabilities-text'>OPTIMIZE Engineering with KAGERA has the capabilities to provide an integrated ML (Machine Learning) solutions. This bilateral cooperation entails data analytics, developing predictive models, deep learning and apply machine learning methods in oil and gas industry.</p>
+        <p className='capabilities-text'>OPTIMIZE Engineering with Kageera has the capabilities to provide an integrated ML (Machine Learning) solutions. This bilateral cooperation entails data analytics, developing predictive models, deep learning and apply machine learning methods in oil and gas industry.</p>
         <TextWithArrow text='Advanced and dynamic modeling using ML (Machine Learning) tools.' />
         <TextWithArrow text='Refinery Linear Programming for the best return of investment using GEKKO Dynamics.' />
         <TextWithArrow text='Applying Machine Learning algorithm on production facilities to improve and optimize the operating conditions and predict the potential downtime.' />
@@ -84,7 +84,7 @@ export const Capabilities = (props) => (
         <p className='capabilities-sub-title'>Detailed Engineering and Vendor Communication and technical bid evaluation</p>
         <p className='capabilities-text'>OPTIMIZE has the capabilities to technically evaluate vendors’ bid and assist the customer to make right decision for the most viable engineering options. OPTIMIZE process work flow in Detailed Engineering phase has been always appreciated from our customers.</p>
         <img src={detailed} alt='OPTIMIZE_Capabilities' />
-        <Title titleType='sub-title' title='Construction Supervision' border='title-border' />
+        <Title titleType='sub-title' title='Project Management' border='title-border' />
         <TextWithArrow text='OPTIMIZE supports the construction plans throughout the full lifecycle of the project to yield the greatest possible benefits to our customers.' />
         <TextWithArrow text='OPTIMIZE helps customers realize the maximum value of their project delivery by converting high-potential value options identified in the conceptual phase into fully defined, safe and successfully executed ones.' />
         <Title titleType='sub-title' title='OTS' border='title-border' />

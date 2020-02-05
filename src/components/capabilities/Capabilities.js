@@ -104,22 +104,24 @@ export const Capabilities = (props) => (
         <p className='capabilities-text'>The OPTIMIZE can use a full list of programs that support a good suit for Engineering and Practices as per Project request and needs, the following is our list of program and software but not limited to the below:</p>
         <Row>
           <Col xs={12} md={6}>
-            <TextWithArrow text='Pipe-Phase' />
-            <TextWithArrow text='Primavera' />
-            <TextWithArrow text='Olga' />
-            <TextWithArrow text='Flare-net' />
-            <TextWithArrow text='Smart Plant' />
-            <TextWithArrow text='Pipe-net' />
-            <TextWithArrow text='HYSIS' />
+            <TextWithArrow text='HYSYS Steady State' />
+            <TextWithArrow text='HYSYS Dynamics™' />
+            <TextWithArrow text='PROII' />
+            <TextWithArrow text='Aspen EDR' />
+            <TextWithArrow text='Aspen Custom Modeler' />
+            <TextWithArrow text='Hysys Refinery™' />
+            <TextWithArrow text='OLGA' />
+            <TextWithArrow text='Pipenet' />
           </Col>
           <Col xs={12} md={6}>
-          <TextWithArrow text='Auto-cad' />
-          <TextWithArrow text='Hydraulics Analysis' />
-          <TextWithArrow text='PDS Equipment 3D Modeling' />
-          <TextWithArrow text='CAESAR II' />
-          <TextWithArrow text='In-house Software' />
-          <TextWithArrow text='PRO-II' />
-          <TextWithArrow text='Equipment sizing & HEXTRAN' />
+          <TextWithArrow text='DNV GL Phast' />
+          <TextWithArrow text='Pipephase' />
+          <TextWithArrow text='Autocad' />
+          <TextWithArrow text='Caesar II' />
+          <TextWithArrow text='PDMS 3D Modeling' />
+          <TextWithArrow text='Aspen Flarenet' />
+          <TextWithArrow text='Smart Plant' />
+          <TextWithArrow text='Bow-tie' />
           </Col>
         </Row>
       </div>

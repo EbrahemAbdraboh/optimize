@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/optimize/static/css/main.07cc2e73.chunk.css",
-    "main.js": "/optimize/static/js/main.c878fe6b.chunk.js",
-    "main.js.map": "/optimize/static/js/main.c878fe6b.chunk.js.map",
+    "main.js": "/optimize/static/js/main.3d31a993.chunk.js",
+    "main.js.map": "/optimize/static/js/main.3d31a993.chunk.js.map",
     "runtime-main.js": "/optimize/static/js/runtime-main.5b1fb22e.js",
     "runtime-main.js.map": "/optimize/static/js/runtime-main.5b1fb22e.js.map",
     "static/js/2.7e5cb46f.chunk.js": "/optimize/static/js/2.7e5cb46f.chunk.js",
     "static/js/2.7e5cb46f.chunk.js.map": "/optimize/static/js/2.7e5cb46f.chunk.js.map",
     "index.html": "/optimize/index.html",
-    "precache-manifest.ac6eb05aaba41bae891bc6136ca26b33.js": "/optimize/precache-manifest.ac6eb05aaba41bae891bc6136ca26b33.js",
+    "precache-manifest.5b0939c8e6518329839c9289fe1e4a15.js": "/optimize/precache-manifest.5b0939c8e6518329839c9289fe1e4a15.js",
     "service-worker.js": "/optimize/service-worker.js",
     "static/css/main.07cc2e73.chunk.css.map": "/optimize/static/css/main.07cc2e73.chunk.css.map",
     "static/js/2.7e5cb46f.chunk.js.LICENSE": "/optimize/static/js/2.7e5cb46f.chunk.js.LICENSE",
@@ -16,8 +16,8 @@
     "static/media/SectionWithBg.scss": "/optimize/static/media/training-section.99f0a4f5.png",
     "static/media/jumbotron.scss": "/optimize/static/media/training-slide.025acebb.png",
     "static/media/bunner.png": "/optimize/static/media/bunner.a673911e.png",
-    "static/media/detailed.png": "/optimize/static/media/detailed.38c065a8.png",
-    "static/media/feed.png": "/optimize/static/media/feed.6964416c.png",
+    "static/media/detailed.png": "/optimize/static/media/detailed.0f5bda4f.png",
+    "static/media/feed.png": "/optimize/static/media/feed.41d15c58.png",
     "static/media/slider.scss": "/optimize/static/media/home-slide03.1d722b38.png",
     "static/media/icon01.png": "/optimize/static/media/icon01.df3e808f.png",
     "static/media/icon02.png": "/optimize/static/media/icon02.d5ce1b8f.png",
@@ -32,6 +32,6 @@
     "static/js/runtime-main.5b1fb22e.js",
     "static/js/2.7e5cb46f.chunk.js",
     "static/css/main.07cc2e73.chunk.css",
-    "static/js/main.c878fe6b.chunk.js"
+    "static/js/main.3d31a993.chunk.js"
   ]
 }

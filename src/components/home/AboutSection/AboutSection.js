@@ -27,7 +27,7 @@ class AboutSection extends Component {
           <div className='about-wrapper '>
             <Title titleType='main-title' title='about' border='title-no-border' />
             <p className='about-description'>Our robust knowledge-based approach and dedication to quality and safety allow us to provide the best-in-class engineering and innovative solutions to every part of the oil and gas industry</p>
-            <MoreButton page='/About' prevent={this.eventPrevent}/>
+            <MoreButton page={process.env.PUBLIC_URL + "/about"} prevent={this.eventPrevent}/>
           </div>
         </SectionWithBg>
     );

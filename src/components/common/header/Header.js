@@ -48,7 +48,7 @@ export class Header extends Component {
             <Container isscrolling={isScrolling}>
               <nav className="toolbar__navigation">
                 <div className="toolbar__logo">
-                  <Link to="/" onClick={this.props.prevent}>
+                  <Link to={process.env.PUBLIC_URL + "/"} onClick={this.props.prevent}>
                     <img src={logo} alt='Optimize-engineering'/>
                   </Link>
                 </div>
@@ -56,22 +56,22 @@ export class Header extends Component {
                 <div className="toolbar_navigation-items">
                   <ul>
                     <li>
-                      <Link  to="/" onClick={this.props.prevent}>Home</Link>
+                      <Link  to={process.env.PUBLIC_URL + "/"} onClick={this.props.prevent}>Home</Link>
                     </li>
                     <li>
-                      <Link  to="/about" onClick={this.props.prevent}>About</Link>
+                      <Link  to={process.env.PUBLIC_URL + "/about"} onClick={this.props.prevent}>About</Link>
                     </li>
                     <li>
-                      <Link to="/capabilities" onClick={this.props.prevent}>Capabilities </Link>
+                      <Link to={process.env.PUBLIC_URL + "/capabilities"} onClick={this.props.prevent}>Capabilities </Link>
                     </li>
                     <li>
-                      <Link to="/services" onClick={this.props.prevent}>Services </Link>
+                      <Link to={process.env.PUBLIC_URL + "/services"} onClick={this.props.prevent}>Services </Link>
                     </li>
                     <li>
-                      <Link to="/projects" onClick={this.props.prevent}>Projects </Link>
+                      <Link to={process.env.PUBLIC_URL + "/projects"} onClick={this.props.prevent}>Projects </Link>
                     </li>
                     <li>
-                      <Link to="/training" onClick={this.props.prevent}>Training </Link>
+                      <Link to={process.env.PUBLIC_URL + "/training"} onClick={this.props.prevent}>Training </Link>
                     </li>
                   </ul>
                 </div>

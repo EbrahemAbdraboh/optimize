@@ -45,7 +45,7 @@ class TrainingSection extends Component {
 
             </Row>
           </div>
-          <MoreButton page='/Training' prevent={this.eventPrevent}/>
+          <MoreButton page={process.env.PUBLIC_URL + "/training"} prevent={this.eventPrevent}/>
         </div>
         </SectionWithBg>
     );

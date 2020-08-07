@@ -59,7 +59,7 @@ export class ProjectsSection extends React.Component{
           <div className='projects-content'>
             <ProjectCard Projects={this.state.Projects}/>
           </div>
-          <MoreButton page='/Projects' prevent={this.eventPrevent}/>
+          <MoreButton page={process.env.PUBLIC_URL + "/projects"} prevent={this.eventPrevent}/>
         </div>
         </SectionWithBg>
     );

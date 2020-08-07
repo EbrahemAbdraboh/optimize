@@ -55,7 +55,7 @@ class ServicesSection extends Component {
                 </Col>
               </Row>
             </div>
-            <MoreButton page='/Services' prevent={this.eventPrevent}/>
+            <MoreButton page={process.env.PUBLIC_URL + "/services"} prevent={this.eventPrevent}/>
           </div>
         </SectionWithBg>
     );

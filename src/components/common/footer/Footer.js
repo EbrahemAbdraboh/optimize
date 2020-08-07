@@ -14,7 +14,7 @@ export const Footer = props => {
         <Row>
           <Col xs={12}  md={4} >
             <div className="logo">
-              <Link to="/" onClick={props.prevent}>
+              <Link to={process.env.PUBLIC_URL + "/"} onClick={props.prevent}>
                 <img src={logo} onClick={props.prevent} alt='Optimize-engineering'/>
               </Link>
             </div>
@@ -33,22 +33,22 @@ export const Footer = props => {
             <p>Site Map</p>
             <ul >
               <li>
-                <Link to="/" onClick={props.prevent}>Home</Link>
+                <Link to={process.env.PUBLIC_URL + "/"} onClick={props.prevent}>Home</Link>
               </li>
               <li>
-                <Link to="/about" onClick={props.prevent}>About</Link>
+                <Link to={process.env.PUBLIC_URL + "/about"} onClick={props.prevent}>About</Link>
               </li>
               <li>
-                <Link to="/capabilities" onClick={props.prevent}>Capabilities</Link>
+                <Link to={process.env.PUBLIC_URL + "/capabilities"} onClick={props.prevent}>Capabilities</Link>
               </li>
               <li>
-                <Link to="/services" onClick={props.prevent}>Services</Link>
+                <Link to={process.env.PUBLIC_URL + "/services"} onClick={props.prevent}>Services</Link>
               </li>
               <li>
-                <Link to="/projects" onClick={props.prevent}>Projects</Link>
+                <Link to={process.env.PUBLIC_URL + "/projects"} onClick={props.prevent}>Projects</Link>
               </li>
               <li>
-                <Link to="/training" onClick={props.prevent}>Training</Link>
+                <Link to={process.env.PUBLIC_URL + "/training"} onClick={props.prevent}>Training</Link>
               </li>
 
             </ul>

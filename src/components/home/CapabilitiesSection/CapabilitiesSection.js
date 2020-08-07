@@ -35,7 +35,7 @@ class CapabilitiesSection extends Component {
                 </Col>
               </Row>
             </div>
-            <MoreButton page='/Capabilities' prevent={this.eventPrevent}/>
+            <MoreButton page={process.env.PUBLIC_URL + "/capabilities"} prevent={this.eventPrevent}/>
           </div>
         </SectionWithBg>
     );

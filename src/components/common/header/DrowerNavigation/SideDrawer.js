@@ -18,22 +18,22 @@ const SideDrawer = (props) => {
         </div>
         <ul>
           <li onClick={props.click}>
-            <Link  to="/">Home</Link>
+            <Link  to={process.env.PUBLIC_URL + "/"}>Home</Link>
           </li>
           <li onClick={props.click}>
-            <Link  to="/about" >About</Link>
+            <Link  to={process.env.PUBLIC_URL + "/about"} >About</Link>
           </li>
           <li onClick={props.click}>
-            <Link to="/capabilities">Capapilities </Link>
+            <Link to={process.env.PUBLIC_URL + "/capabilities"}>Capapilities </Link>
           </li>
           <li onClick={props.click}>
-            <Link to="/services">Services </Link>
+            <Link to={process.env.PUBLIC_URL + "/services"}>Services </Link>
           </li>
           <li onClick={props.click}>
-            <Link to="/projects">Projects </Link>
+            <Link to={process.env.PUBLIC_URL + "/projects"}>Projects </Link>
           </li>
           <li onClick={props.click}>
-            <Link to="/training">Training </Link>
+            <Link to={process.env.PUBLIC_URL + "/training"}>Training </Link>
           </li>
         </ul>
       </nav>

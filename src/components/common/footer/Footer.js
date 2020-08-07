@@ -14,15 +14,17 @@ export const Footer = props => {
         <Row>
           <Col xs={12}  md={4} >
             <div className="logo">
-              <img src={logo} alt='Optimize-engineering'/>
+              <Link to="/" onClick={props.prevent}>
+                <img src={logo} onClick={props.prevent} alt='Optimize-engineering'/>
+              </Link>
             </div>
             <p className='email'>engineering@optimize-engineering.com</p>
             <div className='social'>
               <span className="facebook" >
-                <Link to="https://www.facebook.com/Optimize-Engineering-108050993934571/" target='_blank'></Link>
+                <Link to="//www.facebook.com/Optimize-Engineering-108050993934571/" target='_blank'></Link>
               </span>
               <span className="linkedin">
-                <Link to="https://www.linkedin.com/company/optimize-hydrocarbon-energey/" target='_blank'></Link>
+                <Link to="//www.linkedin.com/company/optimize-hydrocarbon-energey/" target='_blank'></Link>
               </span>
             </div>
           </Col>

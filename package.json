@@ -2,7 +2,7 @@
   "name": "optimize",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://ebrahemabdraboh.github.io/optimize",
+  "homepage": "https://ebrahemabdraboh.github.io/optimize/",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.4.0",
@@ -17,6 +17,7 @@
     "react-dom": "^16.12.0",
     "react-icons": "^3.8.0",
     "react-metismenu": "^1.4.0",
+    "react-preloaders": "^3.0.3",
     "react-router-dom": "^5.1.2",
     "react-scripts": "3.3.0",
     "semantic-ui-react": "^0.88.2",

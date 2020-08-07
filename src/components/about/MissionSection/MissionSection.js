@@ -52,8 +52,8 @@ const MissionSection = props => {
             <Col>
               <p className='mission-text'>OPTIMIZE offers the best-in-class engineering services in oil & Gas, upstream and downstream projects.</p>
               <p className='mission-text'>Starting from inception of conceptual studies, Simulations, value engineering studies, cost estimation and project evaluation, FEED, Detailed engineering, safety studies, and assisting in tendering, procurement, up to start-up.</p>
-              <p className='mission-text'>OPTIMIZE has the capabilities to team up with customers and assess different phases of the project helping customer to reach an inescapable conclusion.</p>
-              <p className='mission-text'>OPTIMIZE over years has acquired the best-in-class experience, in upstream, midstream and downstream facilities, LNG and NGL including, onshore/offshore production facilities, oil Terminals, storage tanks farm/truck loading facilities, marine facilities (Oil Platforms, MOPU, and Oil piers, pumping stations, pipelines, gathering systems, custody transfer metering, utility stations.</p>
+              <p className='mission-text'>OPTIMIZE has the capabilities to team up with customers and assess different phases of the project helping the customer to reach an optimum conclusion.</p>
+              <p className='mission-text'>OPTIMIZE over the years has acquired the best-in-class experience, in upstream, midstream and downstream facilities, LNG and NGL including, onshore/offshore production facilities, oil Terminals, storage tanks farm/truck loading facilities, marine facilities (Oil Platforms, MOPU, and Oil piers, pumping stations, pipelines, gathering systems, custody transfer metering, utility stations).</p>
             </Col>
           </Row>
         </div>

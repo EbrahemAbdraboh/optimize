@@ -48,7 +48,7 @@ export class Header extends Component {
             <Container isscrolling={isScrolling}>
               <nav className="toolbar__navigation">
                 <div className="toolbar__logo">
-                  <Link to="/">
+                  <Link to="/" onClick={this.props.prevent}>
                     <img src={logo} alt='Optimize-engineering'/>
                   </Link>
                 </div>
@@ -62,7 +62,7 @@ export class Header extends Component {
                       <Link  to="/about" onClick={this.props.prevent}>About</Link>
                     </li>
                     <li>
-                      <Link to="/capabilities" onClick={this.props.prevent}>Capapilities </Link>
+                      <Link to="/capabilities" onClick={this.props.prevent}>Capabilities </Link>
                     </li>
                     <li>
                       <Link to="/services" onClick={this.props.prevent}>Services </Link>

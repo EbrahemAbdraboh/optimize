@@ -21,12 +21,12 @@ export class ControlPanel extends React.Component{
       <div className='control-panel-wrapper'>
         <Container>
           <Row>
-            <Col md={12} lg={6} className='filter-content'  >
+            <Col md={12} lg={8} className='filter-content'  >
               <RadioButton
                     changed={ this.props.radioChangeHandler }
                     id="1"
                     isSelected={this.props.allSelect}
-                    label="All Courses"
+                    label="All"
                     value="Course"
                 />
                 <RadioButton
@@ -43,9 +43,16 @@ export class ControlPanel extends React.Component{
                     label="HSE"
                     value="HSE"
                 />
+                <RadioButton
+                    changed={ this.props.radioChangeHandler }
+                    id="4"
+                    isSelected={this.props.mechanicalSelect}
+                    label="Mechanical"
+                    value="Mechanical"
+                />
 
             </Col>
-            <Col md={12} lg={6} className='search-content' >
+            <Col md={12} lg={4} className='search-content' >
               <SearchBox searchBoxOnchange={this.props.searchBoxOnchange}/>
             </Col>
           </Row>

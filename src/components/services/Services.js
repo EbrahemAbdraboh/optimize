@@ -15,10 +15,8 @@ export class Services extends React.Component{
   }
 
 
-  componentWillReceiveProps() {
-
-    // const {current} = this.state
-    // const target = current -
+  componentWillReceiveProps(nextProps, nextState) {
+    
     window.scrollTo({
       top: (window.pageYOffset - 75) ,
       behavior: "smooth"

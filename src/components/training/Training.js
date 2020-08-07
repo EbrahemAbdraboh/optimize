@@ -118,6 +118,76 @@ export class Training extends React.Component{
           title: 'Consequence Modeling Techniques',
           auth: 'Eng. Emad El-Gebesy',
           type: 'HSE Course',
+        },
+        {
+          images: 'https://i.postimg.cc/zXJfYDqy/course16.png',
+          time: '5 Days',
+          title: 'Pumps Design Operation and Performance',
+          auth: 'Eng. Emad El-Gebesy',
+          type: 'Mechanical Course',
+        },
+        {
+          images: 'https://i.postimg.cc/jdZSxVjZ/course17.png',
+          time: '5 Days',
+          title: 'Compressor Application, Design and Selection',
+          auth: 'Eng. Emad El-Gebesy',
+          type: 'Mechanical Course',
+        },
+        {
+          images: 'https://i.postimg.cc/wx5BrRYK/course18.png',
+          time: '5 Days',
+          title: 'Mechanical seals and Compressor Dry Gas Seals',
+          auth: 'Eng. Emad El-Gebesy',
+          type: 'Mechanical Course',
+        },
+        {
+          images: 'https://i.postimg.cc/KzSZqx9v/course19.png',
+          time: '5 Days',
+          title: 'Pressure Vessels, Tanks, Valves and Filters',
+          auth: 'Eng. Emad El-Gebesy',
+          type: 'Mechanical Course',
+        },
+        {
+          images: 'https://i.postimg.cc/brRNSW9Y/course20.png',
+          time: '4 Days',
+          title: 'Storage Tanks Design Construction and maintenance',
+          auth: 'Eng. Emad El-Gebesy',
+          type: 'Mechanical Course',
+        },
+        {
+          images: 'https://i.postimg.cc/xCMdnckz/course21.png',
+          time: '4 Days',
+          title: 'Heat Exchangers Design, Operation and maintenances',
+          auth: 'Eng. Emad El-Gebesy',
+          type: 'Mechanical Course',
+        },
+        {
+          images: 'https://i.postimg.cc/WzV13Trf/course22.png',
+          time: '5 Days',
+          title: 'Plants Commissioning, Start-up of Process Units',
+          auth: 'Eng. Emad El-Gebesy',
+          type: 'Mechanical Course',
+        },
+        {
+          images: 'https://i.postimg.cc/fRyTkHtZ/course23.png',
+          time: '5 Days',
+          title: 'Root Cause Analysis and Failure Analysis',
+          auth: 'Eng. Emad El-Gebesy',
+          type: 'Mechanical Course',
+        },
+        {
+          images: 'https://i.postimg.cc/4x04czVc/course24.png',
+          time: '5 Days',
+          title: 'Rotating Machinery – Operation and Maintenance',
+          auth: 'Eng. Emad El-Gebesy',
+          type: 'Mechanical Course',
+        },
+        {
+          images: 'https://i.postimg.cc/d0TsjLjx/course25.png',
+          time: '5 Days',
+          title: 'Equipment Maintenance and Machinery Alignment',
+          auth: 'Eng. Emad El-Gebesy',
+          type: 'Mechanical Course',
         }
       ]
     }
@@ -154,6 +224,7 @@ export class Training extends React.Component{
             allSelect={ checked === 'Course' }
             processSelect={ checked === 'Process' }
             hseSelect={ checked === 'HSE' }
+            mechanicalSelect={ checked === 'Mechanical' }
           />
           <div className='courses-wrapper'>
             <TrainingtCard Courses={radioCourses}/>

@@ -17,9 +17,9 @@ export const ServicesContent = props => {
 
     {/* Machine Level 1.1       */}
       <p id='eng-11' className='services-sub-title'>Machine Learning and Data Analytics</p>
-      <p className='services-text'>OPTIMIZE Engineering with KAGERA has the capabilities to provide an integrated ML (Machine Learning) solutions. This bilateral cooperation entails data analytics, developing predictive models, deep learning and apply machine learning methods in oil and gas industry.</p>
+      <p className='services-text'>OPTIMIZE Engineering with KAGERA has the capabilities to provide an integrated ML (Machine Learning) solutions. This bilateral cooperation entails data analytics, developing predictive models, deep learning and apply machine learning methods in the oil and gas industry.</p>
       <TextWithArrow text='Advanced and dynamic modeling using ML (Machine Learning) tools.' />
-      <TextWithArrow text='Refinery Linear Programming for the best return of investment using GEKKO Dynamics' />
+      <TextWithArrow text='Refinery Linear Programming for the best return on investment using GEKKO Dynamics.' />
       <TextWithArrow text='Applying Machine Learning algorithm on production facilities to improve and optimize the operating conditions and predict the potential downtime.' />
       <TextWithArrow text='Supporting the predictive maintenance via clustering and classification methods.' />
       <TextWithArrow text='Predict the failure of rotating equipment using logistic regression method.' />
@@ -28,14 +28,14 @@ export const ServicesContent = props => {
         <p id='eng-11' className='services-sub-title'>Process Modeling and Advanced Analysis</p>
 
     {/* Upstream Level 1.2.1       */}
-        <p id='eng-121' className='services-sub-sub-title'>UPSTREAM WELLS AMNAGEMNT</p>
+        <p id='eng-121' className='services-sub-sub-title'>UPSTREAM WELLS MANAGEMENT</p>
         <TextWithArrow text='Multiphase flow for well shut it condition modeling.' />
         <TextWithArrow text='Piping transient analysis for pressure surge and un-balanced forces.' />
         <TextWithArrow text='Field lifecycle and integrated asset model.' />
 
       {/* Pipelines Level 1.2.2       */}
           <p id='eng-122' className='services-sub-sub-title'>Pipelines</p>
-          <TextWithArrow text='Pipeline dynamic modeling as start-up, shutdown, cool down, pigging and depressurization.' />
+          <TextWithArrow text='Pipeline dynamic modeling at start-up, shutdown, cool down, pigging and depressurization.' />
           <TextWithArrow text='Pressure surge assessment for Pipeline.' />
 
       {/* Gas gathering Level 1.2.3       */}
@@ -109,7 +109,7 @@ export const ServicesContent = props => {
             <p id='eng-16' className='services-sub-title'>Electrical Engineering</p>
             <TextWithArrow text='Single line diagrams.' />
             <TextWithArrow text='ETAP studies.' />
-            <TextWithArrow text='Develop specifications, calculations and data sheets for electric equipment andn etworks, including generators, motors, transformers, switchgear and other distribution equipment and control systems. TBE evaluation.' />
+            <TextWithArrow text='Develop specifications, calculations and data sheets for electric equipment and networks, including generators, motors, transformers, switchgear and other distribution equipment and control systems. TBE evaluation.' />
 
         {/* Instrumentation Level 1.7       */}
             <p id='eng-17' className='services-sub-title'>Instrumentation</p>
@@ -177,7 +177,7 @@ export const ServicesContent = props => {
           <TextWithArrow text='Inspection &amp; testing of equipment.' />
           <TextWithArrow text='Configuration management.' />
           <TextWithArrow text='Contract interface management.' />
-          
+
 
 
     </div>

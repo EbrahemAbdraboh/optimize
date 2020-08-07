@@ -56,12 +56,12 @@ class Root extends Component {
             <SideDrawer show={this.state.sideDrawerOpen} click={this.backdropClickHandler} />
             {backdrop}
             <Switch>
-              <Route exact path="/" component={Home} />
-              <Route path="/about" component={About} />
-              <Route path="/capabilities" component={Capabilities} />
-              <Route path="/services" component={Services} />
-              <Route path="/projects" component={Projects} />
-              <Route path="/training" component={Training} />
+              <Route exact path={process.env.PUBLIC_URL + "/"} component={Home} />
+              <Route path={process.env.PUBLIC_URL + "/about"} component={About} />
+              <Route path={process.env.PUBLIC_URL + "/capabilities"} component={Capabilities} />
+              <Route path={process.env.PUBLIC_URL + "/services"} component={Services} />
+              <Route path={process.env.PUBLIC_URL + "/projects"} component={Projects} />
+              <Route path={process.env.PUBLIC_URL + "/training"} component={Training} />
               <Route component={NoMatch} />
             </Switch>
             <Footer prevent={this.eventPrevent}/>
